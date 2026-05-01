@@ -1,2 +1,2 @@
-# apple-clone
-apple clone front-end
+# e-commerce
+ e-ecommerce website
