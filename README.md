@@ -1,2 +1,2 @@
-# E-Commerce-website
-ASSESSMENT 1
+# apple-clone
+apple clone front-end

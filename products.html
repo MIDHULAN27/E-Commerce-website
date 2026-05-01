@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Tap to Buy</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="products">
+    
+    <!-- Header (Injected via JS) -->
+    <header class="header"></header>
+
+    <main class="main-content">
+        <!-- Dynamic Category Title -->
+        <div class="container fade-in-section" style="padding-top: 40px; padding-bottom: 20px;">
+            <h2 class="section-title" id="dynamic-page-title">Products</h2>
+        </div>
+
+        <!-- Product Grid Container -->
+        <section class="container fade-in-section" style="margin-bottom: 80px;">
+            <div class="product-grid" id="category-grid">
+                <!-- Products will be injected here via JS -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer (Injected via JS) -->
+    <footer class="footer"></footer>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

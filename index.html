@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap to Buy | Home</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+    <!-- Sticky Header -->
+    <header class="header">
+        <div class="header-container">
+            <!-- Left: Logo & Brand -->
+            <a href="index.html" class="brand">
+                <div class="logo">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <span class="brand-name">Tap to Buy</span>
+            </a>
+
+            <!-- Mobile Hamburger -->
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Center: Navigation -->
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <!-- Nav Items -->
+                    <li class="nav-item"><a href="men.html" class="nav-link">Men</a></li>
+                    <li class="nav-item"><a href="women.html" class="nav-link">Women</a></li>
+                    <li class="nav-item"><a href="kids.html" class="nav-link">Kids</a></li>
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="beauty.html" class="nav-link">Beauty</a></li>
+                    <li class="nav-item"><a href="genz.html" class="nav-link">Genz</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right: Search & Icons -->
+            <div class="header-actions">
+                <!-- Search -->
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" class="search-input" id="search-input" placeholder="Search products...">
+                </div>
+
+                <!-- Icons Group -->
+                <div class="icons-group">
+                    <!-- Wishlist -->
+                    <div class="icon-item">
+                        <a href="wishlist.html" class="icon-link">
+                            <div class="cart-wrapper">
+                                <i class="fa-regular fa-heart"></i>
+                                <span class="cart-badge" id="wishlist-counter">0</span>
+                            </div>
+                            <span class="icon-text">Wishlist</span>
+                        </a>
+                    </div>
+                    <!-- Cart -->
+                    <div class="icon-item">
+                        <a href="cart.html" class="icon-link">
+                            <div class="cart-wrapper">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span class="cart-badge" id="cart-counter">0</span>
+                            </div>
+                            <span class="icon-text">Cart</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-slider" id="hero-slider">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=2070');">
+                    <div class="slide-content">
+                        <h2>Summer Collection 2026</h2>
+                        <p>Discover the latest trends in fashion and get up to 50% off.</p>
+                        <a href="women.html" class="btn-primary">Shop Now</a>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/028/714/265/small_2x/fashion-week-male-model-isolated-on-gradient-background-with-a-place-for-text-photo.jpg');">
+                    <div class="slide-content">
+                        <h2>Men's Premium Wear</h2>
+                        <p>Elevate your style with our exclusive men's collection.</p>
+                        <a href="men.html" class="btn-primary">Explore Men</a>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: url('https://st-gdx.dancf.com/gaodingx/0/uxms/design/20210122-101837-cf22.png');">
+                    <div class="slide-content">
+                        <h2>New Arrivals</h2>
+                        <p>Fresh styles just dropped. Be the first to wear them.</p>
+                        <a href="genz.html" class="btn-primary">View Collection</a>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="slide" style="background-image: url('https://hips.hearstapps.com/hmg-prod/images/best-kids-clothes-67d16d8e3e597.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*');">
+                    <div class="slide-content">
+                        <h2>Kids Wonderland</h2>
+                        <p>Discover fun and comfy clothing for your little ones.</p>
+                        <a href="kids.html" class="btn-primary">Shop Kids</a>
+                    </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="slide" style="background-image: url('https://images.prismic.io/ozhairandbeauty/afPW-8BOoF08xhiy_HP_Desktop_BigBottleFaves_28Apr26_V2.jpg');">
+                    <div class="slide-content">
+                        <h2>Beauty & Care</h2>
+                        <p>Explore top brands in skincare and makeup to enhance your natural glow.</p>
+                        <a href="beauty.html" class="btn-primary">Shop Beauty</a>
+                    </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2024/05/01/14/44/home-8732467_1280.png');">
+                    <div class="slide-content">
+                        <h2>Home Essentials</h2>
+                        <p>Transform your living space with our premium home decor.</p>
+                        <a href="home.html" class="btn-primary">Explore Home</a>
+                    </div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <button class="hero-arrow hero-prev" aria-label="Previous Slide"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="hero-arrow hero-next" aria-label="Next Slide"><i class="fa-solid fa-chevron-right"></i></button>
+
+                <!-- Pagination Dots -->
+                <div class="hero-dots" id="hero-dots">
+                    <div class="hero-dot active" data-slide="0"></div>
+                    <div class="hero-dot" data-slide="1"></div>
+                    <div class="hero-dot" data-slide="2"></div>
+                    <div class="hero-dot" data-slide="3"></div>
+                    <div class="hero-dot" data-slide="4"></div>
+                    <div class="hero-dot" data-slide="5"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Results (Hidden by default) -->
+        <section class="search-results-section container" id="search-results-section" style="display: none;">
+            <h3 class="section-title">Search Results</h3>
+            <div class="product-grid" id="search-grid"></div>
+        </section>
+
+        <!-- Shop by Category Section -->
+        <section class="category-showcase container fade-in-section" id="shop-by-category">
+            <h3 class="section-title" style="text-align: center;">Shop by Category</h3>
+            <div class="category-grid-home">
+                <a href="men.html" class="category-home-card">
+                    <img src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&q=80&w=500" alt="Men">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Men's Fashion</h4>
+                        <p>Up to 50% Off</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="women.html" class="category-home-card">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=500" alt="Women">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Women's Trends</h4>
+                        <p>Up to 60% Off</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="kids.html" class="category-home-card">
+                    <img src="https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&q=80&w=500" alt="Kids">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Kids Wear</h4>
+                        <p>Min 40% Off</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="home.html" class="category-home-card">
+                    <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&q=80&w=500" alt="Home">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Home Decor</h4>
+                        <p>Starting ₹299</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="beauty.html" class="category-home-card">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*8t2bSjNLbYJgNY0ht-LFYg.jpeg" alt="Beauty">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Beauty & Care</h4>
+                        <p>Up to 70% Off</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="genz.html" class="category-home-card">
+                    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&q=80&w=500" alt="Genz">
+                    <div class="category-overlay"></div>
+                    <div class="category-content">
+                        <h4>Gen-Z Styles</h4>
+                        <p>Trending Now</p>
+                        <span class="shop-now-btn">Shop Now</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Advanced Carousel 1: Exclusive Deals For You -->
+        <section class="advanced-carousel-section container fade-in-section" id="exclusive-deals">
+            <h3 class="section-title">Exclusive Deals For You</h3>
+            <div class="carousel-wrapper">
+                <button class="carousel-arrow prev-arrow" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="exclusive-track">
+                        <!-- Products injected via JS -->
+                    </div>
+                </div>
+                <button class="carousel-arrow next-arrow" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots" id="exclusive-dots"></div>
+        </section>
+        
+        <!-- Advanced Carousel 2: Top Brands to Explore -->
+        <section class="advanced-carousel-section container fade-in-section brand-carousel-section" id="top-brands">
+            <h3 class="section-title">Top Brands to Explore</h3>
+            <div class="carousel-wrapper">
+                <button class="carousel-arrow prev-arrow" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="brands-track">
+                        <!-- Brands injected via JS -->
+                    </div>
+                </div>
+                <button class="carousel-arrow next-arrow" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots" id="brands-dots"></div>
+        </section>
+
+        <!-- Advanced Carousel 3: Best Deals Under ₹999 -->
+        <section class="advanced-carousel-section container fade-in-section" id="budget-picks">
+            <h3 class="section-title">Best Deals Under ₹999</h3>
+            <div class="carousel-wrapper">
+                <button class="carousel-arrow prev-arrow" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="carousel-viewport">
+                    <div class="carousel-track" id="budget-track">
+                        <!-- Products injected via JS -->
+                    </div>
+                </div>
+                <button class="carousel-arrow next-arrow" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <div class="carousel-dots" id="budget-dots"></div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Online Shopping</h4>
+                    <ul>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="kids.html">Kids</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <div class="guarantee">
+                        <i class="fa-solid fa-award guarantee-icon"></i>
+                        <div><strong>100% ORIGINAL</strong> guarantee</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 www.tap-to-buy.com. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
